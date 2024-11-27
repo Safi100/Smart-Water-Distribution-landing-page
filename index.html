@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Water Distribution</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .feature-box {
+            border: 1px solid #eaeaea;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+            overflow: hidden;
+        }
+        .feature-box:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+        .feature-box img{
+            width: 100%;
+            height: 250px;
+            object-fit: fill;
+        }
+        .cta-section {
+            background: linear-gradient(to right, #007bff, #0056b3);
+        }
+        .cta-btn {
+            border-radius: 50px;
+            font-weight: bold;
+        }
+        footer {
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header Section -->
+    <header class="bg-primary text-white text-center py-5">
+        <div class="container">
+            <h1>Smart Water Distribution System</h1>
+            <p class="lead">A Revolutionary Solution for Fair and Efficient Water Allocation</p>
+            <a href="#solution" class="btn btn-light btn-lg mt-3">Discover More</a>
+        </div>
+    </header>
+
+    <!-- Problem Section -->
+    <section id="problem" class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">The Water Distribution Challenge</h2>
+            <div class="row">
+                <div class="col-md-6 my-4">
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Diagram_of_Water_Distribution_System.svg/1200px-Diagram_of_Water_Distribution_System.svg.png" alt="Water Problem" class="img-fluid rounded">
+                </div>
+                <div class="col-md-6 d-flex align-items-center">
+                    <p class="text-muted">
+                        Communities worldwide face challenges with water scarcity and unfair allocation. Large users like businesses often overconsume, leaving families with insufficient resources. It's time to rethink how water is managed and distributed.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Solution Section -->
+    <section id="solution" class="bg-light py-5">
+        <div class="container">
+            <h2 class="text-center mb-4">Our Smart Solution</h2>
+            <p class="text-center text-muted mb-5">
+                Our system ensures equitable water distribution based on family size, leveraging advanced sensors, automation, and mobile technology.
+            </p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="feature-box text-center">
+                        <img src="./fair_allocation.png" alt="Fair Allocation" class="img-fluid mb-3">
+                        <div class="p-4">
+                            <h5><strong>Fair Allocation</strong></h5>
+                            <p>Adjusts water distribution dynamically, ensuring larger families get more resources proportionally.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box text-center">
+                        <img src="./water_monitor.png" alt="Real-Time Monitoring" class="img-fluid mb-3">
+                        <div class="p-4">
+                            <h5><strong>Real-Time Monitoring</strong></h5>
+                            <p>Smart sensors track water levels in real-time, ensuring accuracy and preventing overuse.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="feature-box text-center">
+                        <img src="./apps.png" alt="User-Friendly Apps" class="img-fluid mb-3">
+                        <div class="p-4">
+                            <h5><strong>User-Friendly Apps</strong></h5>
+                            <p>Mobile and web apps offer users full visibility of their water usage and remaining monthly allowance.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Website and Mobile App Section -->
+    <section id="apps" class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Discover the Power of Our Website and Mobile App</h2>
+            <p class="text-muted mb-5" style="max-width: 600px; margin:0 auto;">
+                Our digital solutions bring convenience and control to water distribution management. Designed for families and water authorities alike, these tools simplify monitoring and decision-making.
+            </p>
+            <div class="row row-gap-5">
+                <div class="col-md-6">
+                    <h5 class="mb-3"><strong>Web App</strong></h5>
+                    <p class="text-muted">
+                        The web application is designed for water management administrators, offering a dashboard to:
+                    </p>
+                    <ul class="text-muted">
+                        <li>Monitor real-time water usage across all households.</li>
+                        <li>Access family size data to ensure fair distribution.</li>
+                        <li>Set monthly limits and customize distribution schedules.</li>
+                        <li>Generate detailed reports on water consumption trends.</li>
+                    </ul>
+                </div>
+                <div class="col-md-6">
+                    <h5 class="mb-3"><strong>Mobile App</strong></h5>
+                    <p class="text-muted">
+                        The mobile application is tailored for families to provide: <br>&nbsp;
+                    </p>
+                    <ul class="text-muted">
+                        <li>A clear view of current water usage and remaining allowance.</li>
+                        <li>Notifications about refill schedules or exceeding usage limits.</li>
+                        <li>Insights into daily, weekly, and monthly consumption patterns.</li>
+                        <li>Secure login and account management for personalized data.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Team Section -->
+    <section id="team" class="bg-light py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Meet Our Team</h2>
+            <p class="text-muted mb-5" style="max-width: 600px; margin:0 auto;">
+                Our team of dedicated students has worked collaboratively to design and develop this innovative solution for smart water distribution.
+            </p>
+            <div class="row g-4">
+                <div class="col-md-4">
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title mb-2">Safi Nafi</h5>
+                            <p class="card-text text-muted">ID: 22010719</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title mb-2">Mohammad Hirbawi</h5>
+                            <p class="card-text text-muted">ID: 22010266</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card border-0 shadow">
+                        <div class="card-body">
+                            <h5 class="card-title mb-2">Hamza Damra</h5>
+                            <p class="card-text text-muted">ID: 22011319</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Monetization Section -->
+    <section id="monetization" class="py-5 text-center">
+        <div class="container">
+            <h2 class="mb-4">Affordable and Transparent Pricing</h2>
+            <p class="text-muted mb-5" style="max-width: 600px; margin:0 auto;">
+                Our Smart Water Distribution System offers flexible and affordable plans for families and communities, ensuring that everyone benefits from fair and efficient water management.
+            </p>
+            <div class="row row-gap-5">
+                <!-- Monitoring Fee -->
+                <div class="col-md-6">
+                    <h5><strong>Monthly Monitoring Fee</strong></h5>
+                    <p class="text-muted">
+                        Families can monitor their water usage directly from our mobile app for a small monthly fee. This fee covers real-time updates, alerts, and detailed insights into daily, weekly, and monthly consumption patterns.
+                    </p>
+                    <p class="text-primary"><strong>$5 per household/month</strong></p>
+                </div>
+                <!-- Online Invoice Fee -->
+                <div class="col-md-6">
+                    <h5><strong>Online Invoice Payment Fee</strong></h5>
+                    <p class="text-muted">
+                        Pay your water bills conveniently through our mobile app. A small transaction fee is applied for online payments, offering a seamless and secure billing experience for families.
+                    </p>
+                    <p class="text-primary"><strong>$2 per transaction</strong></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Call-to-Action Section -->
+    <section class="cta-section text-white text-center py-5">
+        <div class="container">
+            <h2>Join the Smart Water Revolution</h2>
+            <p class="lead">Be part of a smarter, fairer, and more sustainable future for water management.</p>
+            <a href="#problem" class="btn btn-light btn-lg cta-btn mt-3">Get Started</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3">
+        <p>&copy; 2024 Smart Water Distribution System. All Rights Reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
